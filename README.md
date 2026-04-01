@@ -16,3 +16,20 @@ A full-stack application combining a React frontend and Flask backend to manage 
 
 ## Overview
 This project demonstrates full-stack development by integrating a frontend interface with backend APIs and handling real-time data exchange between systems.
+
+## Note
+This repository does not include the trained model file (`random_forest_model.pkl`). The application structure, API logic, and frontend/backend integration are included for demonstration purposes.
+
+## How to Run
+
+### Frontend
+cd frontend
+npm install
+npm start
+
+### Backend
+cd backend
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 app.py
